@@ -1,0 +1,131 @@
+/* Configurações Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #101010; /* Fundo geral escuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1f2937; /* Fundo do cabeçalho */
+    color: #58a6ff; /* Título e links destacados */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: #58a6ff; /* Links do cabeçalho */
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    color: #90caf9; /* Efeito de hover nos links */
+}
+
+/* Seção de Contato */
+#contato {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #161b22; /* Fundo da seção */
+}
+
+.contato-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contato-info, .contato-form {
+    background: #1e252d; /* Fundo dos cartões */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.contato-info h3, .contato-form h3 {
+    margin-top: 0;
+    color: #58a6ff; /* Títulos */
+}
+
+.contato-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato-info li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contato-info a {
+    color: #90caf9; /* Links na seção de contato */
+    text-decoration: none;
+}
+
+.contato-info a:hover {
+    text-decoration: underline;
+}
+
+/* Formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e0e0e0; /* Labels */
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444; /* Bordas dos campos */
+    border-radius: 4px;
+    background-color: #2c3139; /* Fundo dos campos */
+    color: #e0e0e0; /* Texto dos campos */
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.btn-submit {
+    background-color: #58a6ff; /* Fundo do botão */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #0077cc; /* Hover no botão */
+}
+
+/* Rodapé */
+footer {
+    background-color: #1f2937; /* Fundo do rodapé */
+    color: #90caf9; /* Texto do rodapé */
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 40px;
+}
